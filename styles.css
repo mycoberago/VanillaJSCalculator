@@ -1,51 +1,45 @@
-body{
-  background-color: #071629;
-  font-family: serif;
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-#page{
-  padding: 25px;
+.container-fluid {
+  align-self: center;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px 5px 20px 5px;
+  box-shadow: 5px 5px 10px grey;
 }
-.main {
-  display: flex;
-  justify-content: center;
-}
-#timeWrap{
+
+#display {
+  border: 1px solid grey;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 3px white;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: grey;
+  font-size: 75px;
+  text-align: right;
   padding: 5px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 15px white;
+  box-shadow: 2px 2px 5px grey;
 }
-.content {
-  text-align: center;
-  padding: 10px;
-  margin: 25px;
-  color: #FF5D4F;
+
+table{
+  margin: 10px;
 }
 button {
-  border: none;
-  background: none;
   margin: 5px;
-  font-size: 25px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  box-shadow: 2px 2px 5px grey;
 }
-.session-set{
-  font-size: 35px;
+.btn {
+  font-size: 20px;
 }
-#timer {
-  text-align: center;
-  
-  display: flex;
-  color: white;
-  justify-content: center;
-  flex-direction: column;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-}
-#timer p{
-  font-size: 50px;
-  color: #FF5D4F;
-}
-#session-timer {
-  font-size: 75px;
-  color: #FF5D4F;
+
+#plus{
+  height: 100px;
 }
