@@ -1,0 +1,51 @@
+body{
+  background-color: #071629;
+  font-family: serif;
+}
+
+#page{
+  padding: 25px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+#timeWrap{
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px white;
+}
+.content {
+  text-align: center;
+  padding: 10px;
+  margin: 25px;
+  color: #FF5D4F;
+}
+button {
+  border: none;
+  background: none;
+  margin: 5px;
+  font-size: 25px;
+}
+.session-set{
+  font-size: 35px;
+}
+#timer {
+  text-align: center;
+  
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#timer p{
+  font-size: 50px;
+  color: #FF5D4F;
+}
+#session-timer {
+  font-size: 75px;
+  color: #FF5D4F;
+}
